@@ -1,2 +1,2 @@
 # KitchenClock
-Kitchen Clock with an attiny13, oled display and two buttons.
+Kitchen Clock with an attiny85, oled display_time and two buttons.
