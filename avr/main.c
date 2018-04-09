@@ -40,8 +40,8 @@
 
 // -----(+)--------------->	// Vcc,	Pin 1 on SSD1306 Board
 // -----(-)--------------->	// GND,	Pin 2 on SSD1306 Board
-#define SSD1306_SCL        PB2    // SCL,	Pin 3 on SSD1306 Board
-#define SSD1306_SDA        PB0    // SDA,	Pin 4 on SSD1306 Board
+#define SSD1306_SCL        PB2    // SCL,	Pin 7A on SSD1306 Board
+#define SSD1306_SDA        PB0    // SDA,	Pin 5 on SSD1306 Board
 
 #define SSD1306_SA        0x78    // Slave address
 
@@ -93,34 +93,26 @@ char ssd1306_numdec_buffer[USINT2DECASCII_MAX_DIGITS + 1];
 #if 1
 
 ISR(PCINT0_vect) {
-//    switch (state) {
-//        case ARMED:
-//
-//            TCNT1 = 0;
-//            TCCR1 |= (1 << CS12) | (1 << CS12);
-//            state = COUNTING;
-//            break;
-//
-//        case COUNTING:
-//            counter = TCNT1;
-//            TCCR1 &= ~((1 << CS13) | (1 << CS12) | (1 << CS11) | (1 << CS10));
-//            state = WAIT;
-//            break;
-//        default:;
-//    }
+//    if((PIND & (1 << MY_SWITCH)) == 0){}
+    _delay_ms(10);
+    if ((PINB & (1 << PIN4)) == 0) {
+        hour++;
+    } else if ((PINB & (1 << PIN3)) == 0) {
+        min++;
+    }
 }
 
 ISR(TIMER1_OVF_vect) {
     if (counter_interrupt == 15625) {
         counter_interrupt = 0;
         sec++;
-        if (sec == 60) {
+        if (sec > 59) {
             min++;
             sec = 0;
-            if (min == 60) {
+            if (min > 59) {
                 hour++;
                 min = 0;
-                if(hour == 24) {
+                if (hour > 23) {
                     hour = 0;
                     display_date = 1;
                     days++;
@@ -144,35 +136,36 @@ static inline void initTimer1(void) {
 
 static inline void init_PCINT_Interrupt(void) {
     GIMSK |= (1 << PCIE);   // pin change interrupt enable
-    PCMSK |= (1 << PCINT4); // pin change interrupt enabled for PCINT4
-    sei();                  // enable interrupts
+    PCMSK |= (1 << PCINT4) | (1 << PCINT3) | (1 << PCINT1); // pin change interrupt enabled for PCINT4
+
+    DDRB &= ~((1 << PB4) | (1 << PB3) | (1 << PB1));        // see comment #1
+    PORTB |= (1 << PB4) | (1 << PB3) | (1 << PB1); // enable pullup on pushbutton output and PCINT4 interrupt
+
+//    sei();                  // enable interrupts
 }
 
-uint8_t is_leap_year(uint16_t year){
+uint8_t is_leap_year(uint16_t year) {
     uint8_t leap;
-    if (year%4 == 0)
+    if (year % 4 == 0)
         leap = 1;
     else
         leap = 0;
-    if (year%100 == 0 && year%400 != 0)
+    if (year % 100 == 0 && year % 400 != 0)
         leap = 0;
     return leap;
 }
 
 // https://en.wikipedia.org/wiki/Determination_of_the_day_of_the_week
-uint8_t daystotal (uint16_t y, uint8_t m, uint8_t d)
-{
+uint8_t daystotal(uint16_t y, uint8_t m, uint8_t d) {
     uint16_t daystotal = d;
-    for (int year = 1 ; year <= y ; year++)
-    {
-        int max_month = ( year < y ? 12 : m-1 );
+    for (uint16_t year = 1; year <= y; year++) {
+        int max_month = (year < y ? 12 : m - 1);
         int leap = is_leap_year(year);
-        for (int month = 1 ; month <= max_month ; month++)
-        {
+        for (int month = 1; month <= max_month; month++) {
             daystotal += daytab[leap][month];
         }
     }
-    return (uint8_t) (daystotal%7);
+    return (uint8_t) (daystotal % 7);
 }
 
 int main(void) {
@@ -187,12 +180,13 @@ int main(void) {
     _delay_ms(40);
     ssd1306_oled *f5x7 = font5x7_init();
 
-    f5x7->ssd1306_init();
-    f5x7->ssd1306_clear();
-
     _delay_ms(100);
 
-    DDRB |= (1 << PB3);
+    f5x7->ssd1306_init();
+    _delay_ms(100);
+//    f10x14->ssd1306_init();
+    f5x7->ssd1306_clear();
+
     init_PCINT_Interrupt();
     initTimer1();
     sei();
@@ -208,12 +202,12 @@ int main(void) {
 
 #if 1
     for (;;) {
-        if(display_date){
+        if (display_date) {
 //            days++;
-            if(days == daytab[is_leap_year(year)][month]){
+            if (days == daytab[is_leap_year(year)][month]) {
                 days = 0;
                 month++;
-                if(month == 13){
+                if (month == 13) {
                     month = 1;
                     year++;
                 }
@@ -221,7 +215,7 @@ int main(void) {
             }
 
 //            usint2decascii(, ssd1306_numdec_buffer);
-            f5x7->put_string(30, 0, weekdaytab[(week_days++)%7]);
+            f5x7->put_string(30, 0, weekdaytab[(week_days++) % 7]);
 
             usint2decascii(days, ssd1306_numdec_buffer);
 
@@ -232,7 +226,7 @@ int main(void) {
             f5x7->put_string(68, 0, ssd1306_numdec_buffer);
             f5x7->put_char(80, 0, '.');
 
-            usint2decascii(year%100, ssd1306_numdec_buffer);
+            usint2decascii(year % 100, ssd1306_numdec_buffer);
             f5x7->put_string(86, 0, ssd1306_numdec_buffer);
 
             display_date = 0;
