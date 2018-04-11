@@ -32,7 +32,7 @@ set(WITH_MCU ON)
 set(AVR_MCU attiny85)
 set(AVR_H_FUSE 0xdf)
 set(AVR_L_FUSE 0x62) #clock/8
-#set(AVR_L_FUSE 0xe2)
+#set( 0xe2)
 
 ### END TOOLCHAIN SETUP AREA #############################################
 # -DCMAKE_TOOLCHAIN_FILE=./generic-gcc-avr.cmake

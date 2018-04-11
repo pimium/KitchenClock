@@ -96,9 +96,11 @@ ISR(PCINT0_vect) {
 //    if((PIND & (1 << MY_SWITCH)) == 0){}
     _delay_ms(10);
     if ((PINB & (1 << PIN4)) == 0) {
-        hour++;
+        hour = (uint8_t) ((hour + 1)%24);
     } else if ((PINB & (1 << PIN3)) == 0) {
-        min++;
+        min = (uint8_t) ((min + 1)%60);
+    }else if ((PINB & (1 << PIN1)) == 0) {
+        sec = 0;
     }
 }
 
