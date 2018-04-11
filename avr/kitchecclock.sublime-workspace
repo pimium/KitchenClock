@@ -1,0 +1,871 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"x",
+				"x_predicted"
+			],
+			[
+				"cou",
+				"counter"
+			],
+			[
+				"un",
+				"uint16_t"
+			],
+			[
+				"coun",
+				"counter_interrupt"
+			],
+			[
+				"the",
+				"theta1"
+			],
+			[
+				"cmd",
+				"send_cmd"
+			],
+			[
+				"opt",
+				"optarg"
+			],
+			[
+				"ret",
+				"retval"
+			],
+			[
+				"M",
+				"ML_UP"
+			],
+			[
+				"buk",
+				"bulk_buf"
+			],
+			[
+				"bul",
+				"bulk_buf"
+			],
+			[
+				"ubs",
+				"usb_ml"
+			],
+			[
+				"print",
+				"printk"
+			],
+			[
+				"usbc",
+				"usbcheck"
+			],
+			[
+				"wq",
+				"wq_read"
+			],
+			[
+				"usb_rea",
+				"usbcheck_read"
+			],
+			[
+				"data",
+				"data_register"
+			],
+			[
+				"dat",
+				"data_register"
+			],
+			[
+				"SR",
+				"SR_load_Byte"
+			],
+			[
+				"R",
+				"RCLK0"
+			],
+			[
+				"sr",
+				"SRCLK_595"
+			],
+			[
+				"sta",
+				"state_idle"
+			],
+			[
+				"PB",
+				"PB0"
+			],
+			[
+				"da",
+				"data_register"
+			],
+			[
+				"st",
+				"state_clk_low"
+			],
+			[
+				"s",
+				"state_clk_high"
+			],
+			[
+				"w",
+				"SR_write"
+			],
+			[
+				"ne",
+				"next_statefunc"
+			],
+			[
+				"stat",
+				"state_clear"
+			],
+			[
+				"uin",
+				"uint16_t"
+			],
+			[
+				"new",
+				"new_button3"
+			],
+			[
+				"old_button",
+				"old_button3"
+			],
+			[
+				"TM",
+				"TM1637_display_colon"
+			],
+			[
+				"tim",
+				"time_counter"
+			],
+			[
+				"ti",
+				"time_counter"
+			],
+			[
+				"PORT",
+				"PORTB"
+			],
+			[
+				"P",
+				"PORTB"
+			],
+			[
+				"Prin",
+				"printHello"
+			],
+			[
+				"thre",
+				"threads"
+			],
+			[
+				"NU",
+				"NUM_THREADS"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"p",
+				"pthread"
+			],
+			[
+				"AVRDUDE_w",
+				"AVRDUDE_WRITE_FLASH"
+			],
+			[
+				"AVR",
+				"AVRDUDE"
+			],
+			[
+				"cre",
+				"create_component"
+			],
+			[
+				"pri",
+				"print_all_components"
+			],
+			[
+				"db",
+				"db_file"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"sck_",
+				"sck_high"
+			],
+			[
+				"sck",
+				"sck_low"
+			],
+			[
+				"sp",
+				"spi_ft"
+			],
+			[
+				"spi",
+				"spi_fuction"
+			],
+			[
+				"cle",
+				"clear_NOKIA_CLK"
+			],
+			[
+				"set",
+				"set_NOKIA_CLK"
+			],
+			[
+				"cl",
+				"clear_NOKIA_DIN"
+			],
+			[
+				"dis",
+				"display_data"
+			],
+			[
+				"count",
+				"counter"
+			],
+			[
+				"cdat",
+				"cdata"
+			],
+			[
+				"bu",
+				"busy_flag"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"tra",
+				"transmitting"
+			],
+			[
+				"se",
+				"set_NOKIA_CEN"
+			],
+			[
+				"clear_NOKIA_D",
+				"clear_NOKIA_DIN"
+			],
+			[
+				"tran",
+				"transmit_pos"
+			],
+			[
+				"ST",
+				"Stop"
+			],
+			[
+				"S",
+				"State"
+			],
+			[
+				"init",
+				"init_Timer"
+			],
+			[
+				"dela",
+				"delayMS"
+			],
+			[
+				"LPC_",
+				"LPC_TMR32B0"
+			],
+			[
+				"in",
+				"inc\t#include \"…\""
+			],
+			[
+				"LCD",
+				"LCD_D"
+			],
+			[
+				"set_N",
+				"set_NOKIA_RES"
+			],
+			[
+				"SCEN",
+				"SCEN"
+			],
+			[
+				"SC",
+				"SDnC"
+			],
+			[
+				"SD",
+				"SDIN"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"di",
+				"distance1"
+			],
+			[
+				"dril",
+				"drill_points"
+			],
+			[
+				"dri",
+				"drill_points"
+			],
+			[
+				"dr",
+				"drill_points"
+			],
+			[
+				"op",
+				"optimize"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"item",
+				"items"
+			],
+			[
+				"wri",
+				"write_output"
+			],
+			[
+				"m",
+				"min_y"
+			],
+			[
+				"it",
+				"it"
+			],
+			[
+				"get",
+				"get_Minimum"
+			],
+			[
+				"cmds",
+				"cmds_obj"
+			],
+			[
+				"int",
+				"int16_t"
+			],
+			[
+				"n",
+				"needle_pos"
+			],
+			[
+				"ite",
+				"item"
+			],
+			[
+				"cm",
+				"cmds_obj"
+			],
+			[
+				"c",
+				"class\tNew Class"
+			],
+			[
+				"drill",
+				"drillgroup"
+			],
+			[
+				"gr",
+				"drill_group"
+			],
+			[
+				"Dr",
+				"DrillParser"
+			],
+			[
+				"D",
+				"DrillParser"
+			],
+			[
+				"wr",
+				"writeJsonToFile"
+			],
+			[
+				"__",
+				"__str__"
+			],
+			[
+				"to",
+				"to_json"
+			],
+			[
+				"r",
+				"results"
+			],
+			[
+				"an",
+				"anz_int"
+			],
+			[
+				"ac",
+				"actual_poti_value"
+			],
+			[
+				"spi_po",
+				"spi_poti"
+			],
+			[
+				"SPI",
+				"SPI_MasterTransmit"
+			],
+			[
+				"ui",
+				"uint8_t"
+			],
+			[
+				"fi",
+				"firmware_version"
+			],
+			[
+				"ee",
+				"eeprom_data_t"
+			],
+			[
+				"buf",
+				"buffer_length"
+			],
+			[
+				"vale",
+				"value_array"
+			],
+			[
+				"sen",
+				"send_Response"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"run",
+				"run_Command"
+			],
+			[
+				"DAT",
+				"DATA_LEN_POS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 8690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 7149,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: samplehello"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 506.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pimi/Documents/pimi/cv/dict_modern.txt",
+		"/home/pimi/.aspell.de.pws",
+		"/home/pimi/Documents/pimi/cv/example/moderncv/examples/template.tex",
+		"/home/pimi/zeutec/fan_controller/fan_controller/scomm.c",
+		"/home/pimi/Documents/pimi/cv/letter.tex",
+		"/home/pimi/projects/vusb_attiny2313/avr/.clang-format",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/CMakeLists.txt",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/main.c",
+		"/home/pimi/projects/vusb_attiny2313/avr/main.c",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/ssd1306xled/font5x7.h",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/ssd1306xled/ssd1306xled.c",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/i2c_bitbang/CMakeLists.txt",
+		"/home/pimi/projects/oled_radig/.clang-format",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/i2c_bitbang/USI_TWI_Master.c",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/i2c_bitbang/main.c",
+		"/home/pimi/projects/cmake_example/CMakeLists.txt",
+		"/home/pimi/projects/cmake_example/generic-gcc-avr.cmake",
+		"/home/pimi/projects/cmake_example/vusb.sublime-project",
+		"/home/pimi/projects/SublimeAVR/SublimeAVR.sublime-settings",
+		"/home/pimi/projects/vusb_attiny2313/avr/vsub.sublime-project",
+		"/home/pimi/serial_scripts/drl_parser/script_to_serial.py",
+		"/home/pimi/avr/uv_relais/main.c",
+		"/home/pimi/projects/vusb_attiny2313/avr/CMakeLists.txt",
+		"/home/pimi/projects/vusb_attiny2313/avr/tm1637.c",
+		"/home/pimi/projects/vusb_attiny2313/avr/tm1637.h",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled/CMakeLists.txt",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/Makefile",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/ssd1306xled8x16.c",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/ssd1306xled.c",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/num2str.c",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled/ssd1306xled.h",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled_test1/img0_128x64c1.h",
+		"/home/pimi/projects/vusb_attiny2313/kernel/kernel-usb.c",
+		"/home/pimi/projects/vusb_attiny2313/avr/Makefile",
+		"/home/pimi/projects/cpld_atmega/kicad/cpld_atmega/svg/cpld_atmega.drl",
+		"/home/pimi/projects/cpld_atmega/kicad/cpld_atmega/svg/.gitignore",
+		"/home/pimi/projects/vusb_attiny2313/avr/CMakeLists.sublime-workspace",
+		"/home/pimi/avr/johan_klopf/main.c",
+		"/home/pimi/projects/oled_radig/tinusaur-ssd1306xled-8cb737ce2401/ssd1306xled/num2str.c",
+		"/home/pimi/projects/vusb_attiny2313/kernel/user-space.c",
+		"/home/pimi/projects/vusb_attiny2313/kicad/vusb_attiny2313/.gitignore",
+		"/home/pimi/projects/kos-avr-master/Makefile",
+		"/home/pimi/kicad/lib/kicad-lib-natsfr/PLD/Xilinx/CPLD/xc9572xl/Schematic/xc9572xl.lib",
+		"/home/pimi/projects/cpld_atmega/kicad/cpld_atmega/svg/cpld_atmega.drl_7_2.500.js",
+		"/home/pimi/projects/cpld_atmega/kicad/cpld_atmega/svg/cpld_atmega.drl_1_0.400.js",
+		"/home/pimi/projects/vusb_attiny2313/.gitignore",
+		"/home/pimi/projects/vusb_attiny2313/kicad/vusb_attiny2313/svg/vusb_attiny2313.drl",
+		"/home/pimi/projects/vusb_attiny2313/kicad/vusb_attiny2313/svg/vusb_attiny2313.drl.js",
+		"/home/pimi/projects/vusb_attiny2313/kicad/vusb_attiny2313/svg/vusb_attiny2313.drl_1_0.400.js",
+		"/home/pimi/projects/vusb_attiny2313/kicad/vusb_attiny2313/svg/vusb_attiny2313.drl_2_0.800.js",
+		"/home/pimi/projects/vusb_attiny2313/kicad/vusb_attiny2313/svg/vusb_attiny2313.drl_5_1.000.js",
+		"/home/pimi/Desktop/start_ise.sh",
+		"/home/pimi/.bashrc",
+		"/opt/Xilinx/usb-driver/setup_pcusb",
+		"/home/pimi/Documents/Abfuhrtermine.ics",
+		"/tmp/mozilla_pimi0/Abfuhrtermine.ics",
+		"/home/pimi/projects/vusb_attiny2313/kernel/ml_control",
+		"/home/pimi/serial_scripts/drl_parser/drl_parser.py",
+		"/home/pimi/serial_scripts/python/serialtest.py",
+		"/home/pimi/serial_scripts/drl_parser/drill_group.py",
+		"/home/pimi/serial_scripts/drl_parser/serial_test.py",
+		"/home/pimi/serial_scripts/python/serialexternal.py",
+		"/home/pimi/kicad/projects/VFD_driver/kicad/svg/vfd_driver.drl",
+		"/home/pimi/kicad/projects/VFD_driver/kicad/svg/vfd_driver.drl_1_0.400.js",
+		"/home/pimi/kicad/projects/VFD_driver/kicad/svg/drill_files/vfd_driver.drl",
+		"/home/pimi/serial_scripts/python/input.js",
+		"/home/pimi/projects/vusb_attiny2313/avr/usbconfig.h",
+		"/home/pimi/projects/vusb_attiny2313/kernel/ml-driver/ml_driver.c",
+		"/home/pimi/kicad/projects/VFD_driver/kicad/svg/vfd_driver.drl_4_3.200.js",
+		"/home/pimi/projects/vusb_attiny2313/kernel/ml-driver/Makefile",
+		"/home/pimi/projects/vusb_attiny2313/avr/v-usb/examples/drivertest/firmware/main.c",
+		"/home/pimi/linux/TreiberEntwickeln2015291/5-28-drvrtemplate.c",
+		"/home/pimi/linux/TreiberEntwickeln2015291/8-8-usbcheck.c",
+		"/home/pimi/projects/vusb_attiny2313/kernel/ml-driver/arguments.c",
+		"/home/pimi/projects/vusb_attiny2313/kernel/Makefile",
+		"/home/pimi/projects/vusb_attiny2313/usbtutorial/usb_tutorial/usbtest.c",
+		"/home/pimi/kicad/projects/stepper_encoder/svg/stepper_encoder.drl_2_3.200.js",
+		"/home/pimi/projects/vusb_attiny2313/kernel/ml_manage.sh",
+		"/home/pimi/projects/vusb_attiny2313/usbtutorial/.gitignore",
+		"/home/pimi/projects/vusb_attiny2313/avr/v-usb/examples/hid-custom-rq/firmware/main.c",
+		"/home/pimi/projects/vusb_attiny2313/avr/v-usb/examples/drivertest/firmware/Makefile",
+		"/home/pimi/linux/TreiberEntwickeln2015291/Makefile",
+		"/home/pimi/projects/vusb_attiny2313/avr/v-usb/usbdrv/usbconfig.h",
+		"/home/pimi/linux/TreiberEntwickeln2015291/5-8-hello.c",
+		"/home/pimi/linux/TreiberEntwickeln2015291/*.c",
+		"/home/pimi/projects/vusb_attiny2313/avr/v-usb/examples/drivertest/firmware/usbconfig.h",
+		"/home/pimi/projects/vusb_attiny2313/kernel/Make",
+		"/home/pimi/kicad/projects/VFD_driver/avr/vfd_display/main.c",
+		"/home/pimi/kicad/lib/custom.lib",
+		"/home/pimi/kicad/projects/VFD_driver/kicad/svg/drill_files/vfd_driver.drl_4_3.200.js",
+		"/home/pimi/avr/vfd_display/Makefile",
+		"/home/pimi/avr/vfd_display/main.c",
+		"/home/pimi/kicad/projects/VFD_driver/.gitignore",
+		"/home/pimi/avr/vfd_display/main.",
+		"/home/pimi/MPLABprojects/ASD-firmware/euart.c",
+		"/home/pimi/MPLABprojects/ASD-firmware/euart.h",
+		"/home/pimi/arm_projects/lpc/1114/lpc1114-blink-master/aetzbad/tm1637display.h",
+		"/home/pimi/avr/uv_relais/tm1637.h",
+		"/home/pimi/avr/TM1637/Makefile",
+		"/home/pimi/avr/uv_relais/Makefile",
+		"/home/pimi/avr/uv_relais/tm1637.c",
+		"/home/pimi/kicad/projects/VFD_driver/svg/drill_files/vfd_driver.drl_3_1.000.js",
+		"/home/pimi/kicad/projects/VFD_driver/svg/drill_files/vfd_driver.drl_2_0.800.js",
+		"/home/pimi/kicad/projects/VFD_driver/svg/vfd_driver.drl",
+		"/home/pimi/kicad/projects/VFD_driver/svg/drill_files/vfd_driver.drl_1_0.400.js",
+		"/home/pimi/kicad/projects/VFD_driver/svg/drill_files/vfd_driver.drl_4_3.200.js",
+		"/home/pimi/avr/uv_relais/tm1637display.c",
+		"/home/pimi/MPLABprojects/ASD-firmware/main.c",
+		"/home/pimi/MPLABprojects/ASD-firmware/test/pthread_sample.c",
+		"/home/pimi/MPLABprojects/ASD-firmware/test/LDC_Test.cpp",
+		"/home/pimi/avr/uv_relais/all_fuse.hex",
+		"/home/pimi/avr/TM1637/Makefile.inc",
+		"/home/pimi/kicad/projects/stepper_encoder/stepper_encoder.drl",
+		"/home/pimi/kicad/projects/stepper_encoder/svg/stepper_encoder.drl_1_1.016.js",
+		"/home/pimi/kicad/projects/stepper_encoder/stepper_encoder",
+		"/home/pimi/avr/uv_relais/high_fuse.hex",
+		"/home/pimi/avr/uv_relais/ext_fuse.hex",
+		"/home/pimi/avr/attiny-tm1637-library/examples/attiny13/main.c",
+		"/home/pimi/avr/uv_relais/tm1637.cpp",
+		"/home/pimi/arm_projects/lpc/1114/lpc1114-blink-master/aetzbad/tm1637display.c",
+		"/home/pimi/MPLABprojects/ASD-firmware/test/thread_self.cpp",
+		"/home/pimi/avr/johan_klopf/uart.c",
+		"/home/pimi/kicad/projects/uv_relais/svg/uv_relais.drl_5_3.200.js",
+		"/home/pimi/zeutec/auto_sampler/code/makefile_ubuntu",
+		"/home/pimi/avr/znz_controller/Makefile",
+		"/home/pimi/zeutec/auto_sampler/code/scomm.cpp",
+		"/home/pimi/kicad/projects/uv_relais/svg/uv_relais.drl.js",
+		"/home/pimi/kicad/projects/uv_relais/svg/uv_relais.drl_6_3.200.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Huwald",
+			"pro",
+			"programmiere",
+			"%",
+			"buffer_up"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "CMakeLists.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CMakeEditor/CMakeEditor.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2996,
+								2996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1653.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "cmake",
+	"project": "kitchecclock.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"hello"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/avr/fan_controller/fan_controller/fan_controller.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
